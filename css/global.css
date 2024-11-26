@@ -1,0 +1,67 @@
+:root {
+    --color-primario: #007bff;
+    --color-secundario: #6c757d;
+    --color-fondo: #f9f9f9;
+    --color-texto: #333;
+    --color-enlace: #007BFF;
+    --color-enlace-hover: #0056b3;
+}
+
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 76,5%;
+    color: var(--color-texto);
+    line-height: 1.6;
+    background-color: var(--color-fondo);
+}
+.contenedor {
+    width: 90%;
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    color: #222;
+}
+.svg {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    color: var(--color-enlace);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-enlace-hover);
+    text-decoration: underline;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+button {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0,3s ease;
+}
+
+button:hover {
+    background-color: var(--color-enlace-hover);
+}
+
